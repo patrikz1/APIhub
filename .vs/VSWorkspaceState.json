@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\dist",
+    "\\dist\\css",
+    "\\dist\\js",
     "\\scripts"
   ],
-  "SelectedNode": "\\dist\\login.html",
   "PreviewInSolutionExplorer": false
 }
