@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dist",
+    "\\scripts"
   ],
-  "SelectedNode": "\\C:\\Users\\Blume\\Source\\Repos\\APIhub",
+  "SelectedNode": "\\dist\\login.html",
   "PreviewInSolutionExplorer": false
 }
