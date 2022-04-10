@@ -4,8 +4,10 @@
     "\\dist",
     "\\dist\\css",
     "\\dist\\js",
-    "\\scripts"
+    "\\scripts",
+    "\\src",
+    "\\src\\scss"
   ],
-  "SelectedNode": "\\dist\\index.html",
+  "SelectedNode": "\\dist\\login.html",
   "PreviewInSolutionExplorer": false
 }
