@@ -1,48 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>APIhub</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">APIhub</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="guide-directory.html">Guides</a></li>
-                            <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+<?php include ('header.php'); ?>
             <!-- Page Content-->
             <section class="py-5">
                 <div class="container px-5 my-5">
                     <div class="row gx-5">
                         <div class="col-lg-3">
-
                             <div class="d-flex align-items-center mt-lg-5 mb-4">
                                 <img class="img-fluid rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." />
                                 <div class="ms-3">
-                                    <div class="fw-bold">Pontus Blume</div>
-                                    <div class="text-muted">Maps, Geodata</div>
+                                    <div class="fw-bold">Valerie Luna</div>
+                                    <div class="text-muted">News, Business</div>
                                 </div>
                             </div>
                         </div>
@@ -52,34 +18,23 @@
                                 <!-- Post header-->
                                 <header class="mb-4">
                                     <!-- Post title-->
-                                    <h1 class="fw-bolder mb-1">Google Maps</h1>
+                                    <h1 class="fw-bolder mb-1">Welcome to Blog Post!</h1>
                                     <!-- Post meta content-->
-                                    <div class="text-muted fst-italic mb-2">April 20, 2022</div>
+                                    <div class="text-muted fst-italic mb-2">January 1, 2022</div>
                                     <!-- Post categories-->
-                                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Maps</a>
-                                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Free API</a>
-                                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Google</a>
+                                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>
+                                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>
                                 </header>
                                 <!-- Preview image figure-->
-                                <figure class="mb-4"><div class="col-lg-6 col-xl-7"><img class="img-fluid rounded" src="https://cdn.dribbble.com/users/2747141/screenshots/10583215/daily_ui_005_4x.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" src="https://dummyimage.com/900x400/ced4da/6c757d.jpg" alt="..." /></figure>
                                 <!-- Post content-->
                                 <section class="mb-5">
-
-                                    <p class="fs-5 mb-4">In order to use APIs developed by Google, you first need to register for <a href="https://console.cloud.google.com/getting-started">Google Cloud Platform</a>.</p>
-                                    <p class="fs-5 mb-4">Next, you need to enable the Google Maps API for your account <a href="https://console.cloud.google.com/apis/library/maps-embed-backend.googleapis.com?project=genuine-plate-347810">here</a>.</p>
-                                    <p class="fs-5 mb-4">The next step is to generate an API key. This is done by pressing "Create Credentials" on this <a href="https://console.cloud.google.com/google/maps-apis/credentials?project=genuine-plate-347810">page</a>.</p>
-                                    <h2 class="fw-bolder mb-4 mt-5">Implementing the API</h2>
-                                    <p class="fs-5 mb-4">In order to embed the API into your webpage, the easiest way is to implement an iFrame into your HTML code. Below is a template that you can copy.</p>
-                                    <p class="fs-5 mb-4"><xmp><iframe
-  width="850"
-  height="450"
-  frameborder="0" style="border:0"
-  referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&Resecentrum,Uppsala+Sweden"
-  allowfullscreen>
-</iframe></xmp></p>
-<p class="fs-5 mb-4">This will result in the example displayed below. Be advised that you need to replace "YOUR_API_KEY" with the key generated in the previous step as well as that you can change the default location by changing "Resecentrum,Uppsala+Sweden" to a location of your preference.</p>
-                                    <iframe  width="850"  height="450"  frameborder="0" style="border:0"  referrerpolicy="no-referrer-when-downgrade"src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDUhlGZS9v_75BL89nQuJNgQUd4psCU9UA&q=Resecentrum,Uppsala+Sweden" allowfullscreen></iframe>
+                                    <p class="fs-5 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.</p>
+                                    <p class="fs-5 mb-4">The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
+                                    <p class="fs-5 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                                    <h2 class="fw-bolder mb-4 mt-5">I have odd cosmic thoughts every day</h2>
+                                    <p class="fs-5 mb-4">For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested.</p>
+                                    <p class="fs-5 mb-4">Venus has a runaway greenhouse effect. I kind of want to know what happened there because we're twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It's bone dry today. Something bad happened there as well.</p>
                                 </section>
                             </article>
                             <!-- Comments section-->
@@ -94,13 +49,13 @@
                                             <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
                                             <div class="ms-3">
                                                 <div class="fw-bold">Commenter Name</div>
-                                                Wow, this is great!
+                                                If you're going to lead a space frontier, it has to be government; it'll never be private enterprise. Because the space frontier is dangerous, and it's expensive, and it has unquantified risks.
                                                 <!-- Child comment 1-->
                                                 <div class="d-flex mt-4">
                                                     <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
                                                     <div class="ms-3">
                                                         <div class="fw-bold">Commenter Name</div>
-                                                        I never had such an easy time implementing an API!!!
+                                                        And under those conditions, you cannot establish a capital-market evaluation of that enterprise. You can't get investors.
                                                     </div>
                                                 </div>
                                                 <!-- Child comment 2-->
@@ -108,7 +63,7 @@
                                                     <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
                                                     <div class="ms-3">
                                                         <div class="fw-bold">Commenter Name</div>
-                                                        Wow!
+                                                        When you put money directly to a problem, it makes a good headline.
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,7 +73,7 @@
                                             <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
                                             <div class="ms-3">
                                                 <div class="fw-bold">Commenter Name</div>
-                                                So much easier than RapidAPI(?)
+                                                When I look at the universe and all the ways the universe wants to kill us, I find it hard to reconcile that with statements of beneficence.
                                             </div>
                                         </div>
                                     </div>

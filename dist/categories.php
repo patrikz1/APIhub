@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>APIhub - Categories</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">APIhub</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="guide-directory.html">Guides</a></li>
-                            <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+<?php include ('header.php'); ?>
             <!-- Page Content-->
             <section class="py-5">
                 <div class="container px-5 my-5">
@@ -42,25 +9,25 @@
                         <div class="col-lg-6">
                             <div class="position-relative mb-5">
                                 <img class="img-fluid rounded-3 mb-3" src="images_stock/jose-martin-ramirez-carrasco-yhNVwsKTSaI-unsplash.jpg" alt="Maps" />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="map_APIs.html">Map APIs</a>
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="map_APIs.php">Map APIs</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mb-5">
                                 <img class="img-fluid rounded-3 mb-3" src="images_stock/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="weather_APIs.html">Weather APIs</a>
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="weather_APIs.php">Weather APIs</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mb-5">
                                 <img class="img-fluid rounded-3 mb-3" src="images_stock/lukas-blazek-mcSDtbWXUZU-unsplash.jpg" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="Marketing_APIs.html">Marketing APIs</a>
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="Marketing_APIs.php">Marketing APIs</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mb-5">
                                 <img class="img-fluid rounded-3 mb-3" src="images_stock/jeremy-bezanger-OXrk8fG2aig-unsplash.jpg" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="SocMed_APIs.html">Social Media APIs</a>
+                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="SocMed_APIs.php">Social Media APIs</a>
                             </div>
                         </div>
                     </div>
