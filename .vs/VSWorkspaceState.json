@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\database",
     "\\dist",
+    "\\dist\\assets",
     "\\dist\\css",
+    "\\dist\\images_stock",
     "\\dist\\js",
     "\\scripts",
     "\\src",
     "\\src\\scss"
   ],
-  "SelectedNode": "\\dist\\index.html",
   "PreviewInSolutionExplorer": false
 }

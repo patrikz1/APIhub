@@ -49,6 +49,7 @@ endif;
                             <?php
 if (@$_SESSION['logged_in'] == TRUE):
 ?>
+                            <li class="nav-item"><a class="nav-link" href="UserPage.php">User</a></li>
                             <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
                             <?php
 elseif (@$_SESSION['logged_in'] == FALSE):
