@@ -36,11 +36,11 @@
                     <div class="col-lg-6 pl-lg-1"><img src="https://www.happiness.se/sites/default/files/2019-03/twitter.jpg" alt="" class="img-fluid rounded shadow-sm"></div>
                 </div>
                 <div class="py-4">
-                    <h5 class="mb-3">Recent guides</h5>
+                    <h5 class="mb-3">Recent activity</h5>
                     <div class="p-4 bg-light rounded shadow-sm">
-                        <p class="font-italic mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <ul class="list-inline small text-muted mt-3 mb-0">
-                            <li class="list-inline-item"><i class="fa fa-comment-o mr-2"></i>14 Comments</li>
+                      <ul class="list-inline small text-muted mt-3 mb-0">
+                        <li class="list-inline-item"><i class="fa fa-comment-o mr-2"></i> 14 Comments</li>
+                        <li class="list-inline-item"><i class="fa fa-comment-o mr-2"></i> 4 Guides</li>
                         </ul>
                     </div>
                 </div>

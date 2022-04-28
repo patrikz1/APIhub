@@ -26,7 +26,7 @@
                                             <i class="bi bi-check text-primary"></i>
                                             Check Categories
                                         </li>
-                                        
+
                                     </ul>
                                     <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
                                 </div>
@@ -61,7 +61,7 @@
                                             <i class="bi bi-check text-primary"></i>
                                             Check Profile
                                         </li>
-                                        
+
                                     </ul>
                                     <div class="d-grid"><a class="btn btn-primary" href="#!">Choose plan</a></div>
                                 </div>

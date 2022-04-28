@@ -50,6 +50,23 @@
                                 </section>
                             </article>
                             <!-- Comments section-->
+                            <section id="app">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="comment">
+        <p v-for="items in item" v-text="items"></p>
+          </div><!--End Comment-->
+          </div><!--End col -->
+          </div><!-- End row -->
+      <div class="row">
+        <div class="col-6">
+      <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+          <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+        </div><!-- End col -->
+      </div><!--End Row -->
+    </div><!--End Container -->
+  </section><!-- end App -->
                             <section>
                                 <div class="card bg-light">
                                     <div class="card-body">
