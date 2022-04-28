@@ -8,7 +8,7 @@
                 <div class="media align-items-end profile-header" styles="tr">
                     <div class="profile mr-3"><img src="https://www.publicdomainpictures.net/pictures/270000/velka/avatar-people-person-business-u.jpg" alt="..." width="130" class="rounded mb-2 img-thumbnail"><a href="#" class="btn btn-dark btn-sm btn-block" style="margin-left: 1rem; border:2px solid white">Edit profile</a></div>
                     <div class="media-body mb-5 text-white">
-                        <h4 class="mt-0 mb-0">Patrik Zetterblom <i class="fa fa-check-circle" aria-hidden="true"></i> </h4>
+                        <h4 class="mt-0 mb-0"><?php echo $_SESSION['user_name']; ?> <i class="fa fa-check-circle" aria-hidden="true"></i> </h4>
                         <p class="small mb-4" style="padding-bottom: 2rem;"><i class="fa fa-map-marker mr-2"></i> Stockholm</p>
                     </div>
                 </div>

@@ -65,6 +65,13 @@ endif;
                                     <label class="form-label" for="form1Example23">Password</label>
                                 </div>
 
+               <input type="radio" name="type" value="Basic" checked required>
+              <span class="from-control mb-4">Basic</span>
+              
+              <input type="radio" name="type" value="Pro" required>
+              <span class="from-control mb-4">Pro</span> <br>
+              </br>
+              
                                 <div class="d-flex justify-content-around align-items-center mb-4">
                                     <!-- Checkbox -->
                                     <div class="form-check">
@@ -116,5 +123,33 @@ endif;
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+       
+          <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/jquery.js"></script>
+
+   
+<script>
+        jQuery(document).ready(function(){
+            jQuery('.pro').hide();
+            jQuery('input[name=type]').change(function(){
+                debugger;
+                var type = jQuery(this).val();
+                if(type=='Pro'){
+                    jQuery('.pro').show();
+                }
+                else{
+                    jQuery('.pro').hide();
+                }
+            });
+        });
+    </script>
+   
+   
+      </body>
 </html>

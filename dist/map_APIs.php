@@ -34,9 +34,23 @@
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">Maps</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Mapbox</h5></a>
+                     
+                                                              
+                            <?php
+if (@$_SESSION['type'] == "Pro"):
+?>
 
                                     <h6><a class="stretched-link text-decoration-none" href="rate.php">Reviews </a></h6>
+
                                     
+                                    <?php
+elseif (@$_SESSION['type'] == "Basic"):
+?>
+                                    <h6><a class="stretched-link text-decoration-none" href="free_users.php">Reviews </a></h6>
+
+                              <?php
+endif;
+?>
                                     <p class="card-text mb-0">Mapbox is a developer-friendly mapping and location cloud platform. Mapbox provides the SDKs and APIs that enable developers and designers to incorporate real-time location awareness into their projects.</p>
                                     <a class="text-decoration-none" href="https://docs.mapbox.com/api/overview/">
                                         Read more
@@ -53,8 +67,25 @@
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">Maps</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Google Maps GeoCoding</h5></a>
-                                    <h6><a class="stretched-link text-decoration-none" href="rate_google_geocoding.php">Reviews </a></h6>
+                                    
+                                    <?php
+if (@$_SESSION['type'] == "Pro"):
+?>
 
+<h6><a class="stretched-link text-decoration-none" href="rate_google_geocoding.php">Reviews </a></h6>
+
+                                    
+                                    <?php
+elseif (@$_SESSION['type'] == "Basic"):
+?>
+                                    <h6><a class="stretched-link text-decoration-none" href="free_users.php">Reviews </a></h6>
+
+                              <?php
+endif;
+?>
+                                    
+                                    
+                                  
                                     <p class="card-text mb-0">Geocoding is the process of converting addresses (such as "1600 Amphitheatre Parkway, Mountain View, CA") into geographic coordinates (such as latitude 37.423021 and longitude -122.083739), which can be used to place markers on a map.</p>
                                     <a class=" text-decoration-none" href="https://developers.google.com/maps/documentation/geocoding/overview">
                                         Read more
@@ -70,7 +101,25 @@
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">Maps</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Yelp</h5></a>
-                                    <h6><a class="stretched-link text-decoration-none" href="rate_google_yelp.php">Reviews </a></h6>
+                              
+                                    <?php
+if (@$_SESSION['type'] == "Pro"):
+?>
+
+<h6><a class="stretched-link text-decoration-none" href="rate_google_yelp.php">Reviews </a></h6>
+
+                                    
+                                    <?php
+elseif (@$_SESSION['type'] == "Basic"):
+?>
+                                    <h6><a class="stretched-link text-decoration-none" href="free_users.php">Reviews </a></h6>
+
+                              <?php
+endif;
+?>
+
+                              
+                              
                                     <p class="card-text mb-0">You can obtain review data sorted geographically and filter by ratings and distance from a location using the Yelp API. This information can help you better up your local marketing efforts.</p>
                                     <a class="text-decoration-none" href="https://www.yelp.com/developers">
                                         Read more

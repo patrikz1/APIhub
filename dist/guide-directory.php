@@ -11,7 +11,7 @@
                                         <div class="badge bg-primary bg-gradient rounded-pill mb-2">Maps</div>
                                         <div class="h2 fw-bolder">Google Maps</div>
                                         <p>Create real-world, real-time experiences with the latest Maps, Routes, and Places features from Google Maps Platform. Built by the Google team for developers everywhere. </p>
-                                        <a class="stretched-link text-decoration-none" href="maps_google.html">
+                                        <a class="stretched-link text-decoration-none" href="maps_google.php">
                                             Read more
                                             <i class="bi bi-arrow-right"></i>
                                         </a>

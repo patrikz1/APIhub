@@ -126,7 +126,15 @@ endif;
                     </div>
                   </div>
 
-                  
+                  <input type="radio" name="type" value="Basic" checked required>
+              <span class="from-control mb-4">Basic</span>
+              
+              <input type="radio" name="type" value="Pro" required>
+              <span class="from-control mb-4">Pro</span> <br>
+              </br>
+              <!-- <div class="pro"> 
+              <input type="text" class="form-control mb-4" name="pro" placeholder="Enter Code">
+              </div> -->
 
                   <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                     <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
@@ -163,6 +171,10 @@ endif;
                 </div>
             </div>
         </footer>
+        
+      
+        
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
@@ -172,5 +184,34 @@ endif;
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    
+          <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/jquery.js"></script>
+
+   
+<script>
+        jQuery(document).ready(function(){
+            jQuery('.pro').hide();
+            jQuery('input[name=type]').change(function(){
+                debugger;
+                var type = jQuery(this).val();
+                if(type=='Pro'){
+                    jQuery('.pro').show();
+                }
+                else{
+                    jQuery('.pro').hide();
+                }
+            });
+        });
+    </script> -->
+        
+
+
+      </body>
 </html>

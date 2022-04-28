@@ -46,10 +46,30 @@ endif;
                             <li class="nav-item"><a class="nav-link" href="guide-directory.php">Guides</a></li>
                             <li class="nav-item"><a class="nav-link" href="categories.php">Categories</a></li>
                             <li class="nav-item"><a class="nav-link" href="pricing.php">Pricing</a></li>
+                          
                             <?php
+if (@$_SESSION['type'] == "Pro"):
+?>
+
+                            <li class="nav-item"><a class="nav-link" href="UserPage.php">User</a></li>
+
+                         
+
+
+<?php
+elseif (@$_SESSION['type'] == "Basic"):
+?>
+                                <li class="nav-item"><a class="nav-link" href="free_users.php">User</a></li>
+
+                              <?php
+endif;
+?>
+
+
+
+<?php
 if (@$_SESSION['logged_in'] == TRUE):
 ?>
-                            <li class="nav-item"><a class="nav-link" href="UserPage.php">User</a></li>
                             <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
                             <?php
 elseif (@$_SESSION['logged_in'] == FALSE):
